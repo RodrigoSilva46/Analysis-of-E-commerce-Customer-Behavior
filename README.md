@@ -80,9 +80,29 @@ Empresa de e-commerce está buscando entender melhor o comportamento de seus cli
 
 ### Observações e Recomendações de Ações:
 
-**3 Perfis de clientes encontrados**
+**4 Perfis de clientes encontrados**
 
 ## 1° Grupo
+
+Perfil: Clientes Ativos e Engajados
+
+**Pontos Negativos:**
+
+► Pode haver uma tendência a comprar itens de menor valor, o que pode limitar o potencial de lucro.
+
+► A dependência de descontos pode diminuir a lucratividade a longo prazo.
+
+**Ações Recomendadas:**
+
+► Oferecer descontos especiais para incentivar compras frequentes.
+
+► Criar pacotes de produtos relacionados para aumentar o valor total das compras.
+
+► Enviar e-mails personalizados com recomendações de produtos com base no histórico de compras.Grupo
+
+
+
+## 2° Grupo
 
 **Perfil:**  Clientes de Alto Valor
 
@@ -100,7 +120,8 @@ Empresa de e-commerce está buscando entender melhor o comportamento de seus cli
 
 ► Personalizar comunicações para mostrar produtos de alto valor que possam interessá-los.
 
-## 2° Grupo
+
+## 3° Grupo
 
 **Perfil:**  Clientes Moderadamente Engajados
 
@@ -118,8 +139,8 @@ Empresa de e-commerce está buscando entender melhor o comportamento de seus cli
 
 ► Realizar pesquisas de satisfação para entender melhor suas preferências e ajustar a oferta de produtos.
 
-## 3° Grupo
 
+## 4° Grupo
 **Perfil:**  Clientes Inativos ou Esporádicos
 
 **Pontos Negativos:**
@@ -147,9 +168,9 @@ Empresa de e-commerce está buscando entender melhor o comportamento de seus cli
 **◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►**
 
 
-# Analysis of E-commerce Customer Behavior
+# Customer Behavior Analysis for E-commerce
 
-This project aims to understand the behavior of customers of an e-commerce company by using clustering techniques to segment customers based on their purchasing patterns. From these clusters, we seek to generate insights that will allow the company to personalize its marketing campaigns more effectively.
+This project aims to understand the behavior of the customers of an e-commerce company by using clustering techniques to segment the customers based on their purchasing patterns. From these clusters, we seek to generate insights that will allow the company to personalize its marketing campaigns more effectively.
 
 ****
 
@@ -168,7 +189,7 @@ This project aims to understand the behavior of customers of an e-commerce compa
 
 ### 1. Business Understanding
 
-An e-commerce company is seeking to better understand its customers' behavior to personalize its marketing campaigns. The company has provided a CSV database containing data on customers, products, and transactions conducted between 2010 and 2011.
+The e-commerce company is looking to better understand customer behavior to personalize its marketing campaigns. The company provided a CSV dataset containing information about customers, products, and transactions conducted between the years 2010 and 2011.
 
 **Project Objectives:**
 - Identify common patterns and characteristics among customers.
@@ -192,7 +213,7 @@ An e-commerce company is seeking to better understand its customers' behavior to
 
 **Steps:**
 - Data cleaning and preprocessing.
-- Data transformation to suit the analysis.
+- Data transformation for analysis suitability.
 - Creation of new variables relevant to modeling.
 
 ****
@@ -208,7 +229,7 @@ An e-commerce company is seeking to better understand its customers' behavior to
 
 **Process:**
 - Application of clustering algorithms to group customers.
-- Evaluation of models using metrics such as silhouette score, davies-bouldin score, calinski-harabasz score, among others.
+- Model evaluation using metrics such as silhouette score, davies-bouldin score, calinski-harabasz score, among others.
 
 ****
 
@@ -220,7 +241,7 @@ An e-commerce company is seeking to better understand its customers' behavior to
 - Calinski-Harabasz Score
 
 **Results:**
-- Analysis of the formed clusters and evaluation of the quality of groupings.
+- Analysis of the formed clusters and assessment of clustering quality.
 - Interpretation of identified patterns in each cluster.
 
 ****
@@ -229,9 +250,27 @@ An e-commerce company is seeking to better understand its customers' behavior to
 
 ### Observations and Action Recommendations:
 
-**3 Customer Profiles Found**
+**4 Customer Profiles Found**
 
 ## 1st Group
+
+**Profile:** Active and Engaged Customers
+
+**Negative Points:**
+
+► There may be a tendency to purchase lower-value items, which can limit profit potential.
+
+► Dependency on discounts may decrease long-term profitability.
+
+**Recommended Actions:**
+
+► Offer special discounts to encourage frequent purchases.
+
+► Create bundles of related products to increase the total purchase value.
+
+► Send personalized emails with product recommendations based on purchase history.
+
+## 2nd Group
 
 **Profile:** High-Value Customers
 
@@ -239,7 +278,7 @@ An e-commerce company is seeking to better understand its customers' behavior to
 
 ► Low purchase frequency may indicate lower brand loyalty.
 
-► Long intervals between purchases may indicate a lack of engagement or ongoing interest.
+► The long interval between purchases may indicate a lack of ongoing engagement or interest.
 
 **Recommended Actions:**
 
@@ -249,13 +288,13 @@ An e-commerce company is seeking to better understand its customers' behavior to
 
 ► Personalize communications to showcase high-value products that may interest them.
 
-## 2nd Group
+## 3rd Group
 
 **Profile:** Moderately Engaged Customers
 
 **Negative Points:**
 
-► The average purchase value is relatively low, which may limit the return on investment in marketing strategies.
+► The average purchase value is relatively low, which can limit the return on investment in marketing strategies.
 
 ► Moderate purchase frequency may indicate a lack of commitment to the brand.
 
@@ -267,19 +306,18 @@ An e-commerce company is seeking to better understand its customers' behavior to
 
 ► Conduct satisfaction surveys to better understand their preferences and adjust the product offering.
 
-## 3rd Group
-
+## 4th Group
 **Profile:** Inactive or Sporadic Customers
 
 **Negative Points:**
 
-► Long intervals between purchases and low frequency may indicate lost customers or those drifting away from the brand.
+► The long interval between purchases and low frequency may indicate lost customers or those drifting away from the brand.
 
-► Low average purchase value may indicate these customers are only making occasional purchases or taking advantage of promotions.
+► The low average purchase value may indicate that these customers are only making occasional purchases or taking advantage of promotions.
 
 **Recommended Actions:**
 
-► Send irresistible offers to encourage their return and a new purchase.
+► Send irresistible offers to encourage a return and a new purchase.
 
 ► Create personalized ads on social media to remind them of the brand.
 
